@@ -9,13 +9,13 @@ itr = True
 while (itr):
     weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
-    if weather == "sunny":
+    if weather=="sunny":
         print("Wear a t-shirt and sunglasses.")
         itr = False
-    elif weather == "rainy":
+    elif weather=="rainy":
         print("Don't forget your umbrella and a raincoat.")
         itr = False
-    elif weather == "cold":
+    elif weather=="cold":
         print("Make sure to wear a warm coat and a scarf.")
         itr = False
     else:

@@ -19,6 +19,6 @@ while (itr):
         recommend = "Make sure to wear a warm coat and a scarf."
         itr = False
     else:
-        recommend = "I don't have recommendations for this weather "
+        recommend = "Sorry, I don't have recommendations for this weather "
     
     print(recommend)

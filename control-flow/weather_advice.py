@@ -7,7 +7,7 @@
 itr = True
 recommend = ''
 while (itr):
-    condition = input("What's the weather like today? (sunny/rainy/cold)")
+    condition = input("What's the weather like today? (sunny/rainy/cold): ")
 
     if(condition == 'sunny'):
         recommend = "Wear a t-shirt and sunglasses."

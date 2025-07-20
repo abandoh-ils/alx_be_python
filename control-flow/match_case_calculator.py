@@ -5,9 +5,9 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 # Asking the user to choose the type of operation
-operator = input("Choose the operation (+, -, *, /): ")
+operation = input("Choose the operation (+, -, *, /): ")
 
-match operator:
+match operation:
     case '+':
         result = num1 + num2
         print("The result is {}.".format(result))
@@ -28,5 +28,5 @@ match operator:
             print("The result is {}.".format(result))
 
     case _:
-        # Handle any other unexpected operator
+        # Handle any other unexpected operation
         print("Invalid operation selected. Please choose from +, -, *, /.")

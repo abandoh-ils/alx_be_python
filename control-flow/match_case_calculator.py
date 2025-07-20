@@ -5,9 +5,9 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 # Asking the user to choose the type of operation
-opr = input("Choose the operation (+, -, *, /): ")
+operator = input("Choose the operation (+, -, *, /): ")
 
-match opr:
+match operator:
     case '+':
         result = num1 + num2
         print("The result is {}.".format(result))

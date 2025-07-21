@@ -12,26 +12,26 @@ match priority:
     case "high":
         if time_bound == "yes":
             # High priority and time-sensitive
-            print(f"\nReminder: '{task}' is a high priority task that requires immediate attention today!")
+            print("Reminder: {} is a high priority task that requires immediate attention today!".format(task))
         else:
             # High priority but not time-sensitive
-            print(f"\nReminder: '{task}' is a high priority task. Try to complete it as soon as possible.")
+            print("Reminder: {} is a high priority task. Try to complete it as soon as possible.".format(task))
     
     case "medium":
         if time_bound == "yes":
             # Medium priority and time-sensitive
-            print(f"\nReminder: '{task}' is a medium priority task that requires immediate attention today!")
+            print("Reminder: {} is a medium priority task that requires immediate attention today!".format(task))
         else:
             # Medium priority but not time-sensitive
-            print(f"\nReminder: '{task}' is a medium priority task. Plan to do it soon.")
+            print("Reminder: {} is a medium priority task. Plan to do it soon.".format(task))
 
     case "low":
         if time_bound == "yes":
             # Low priority but still time-sensitive
-            print(f"\nReminder: '{task}' is a low priority task that requires immediate attention today!")
+            print("Reminder: {} is a low priority task that requires immediate attention today!".format(task))
         else:
             # Low priority and not time-sensitive
-            print(f"\nNote: '{task}' is a low priority task. Consider completing it when you have free time.")
+            print("Reminder: {} is a low priority task. Consider completing it when you have free time.".format(task))
     
     case _:
         # Handle invalid priority inputs

@@ -1,5 +1,5 @@
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9       # Multiplier to convert a Fahrenheit delta to Celsius
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5       # Multiplier to convert a Celsius delta to Fahrenheit
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9       # Multiplier to convert a Fahrenheit delta to Celsius
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5       # Multiplier to convert a Celsius delta to Fahrenheit
 
 def convert_to_celsius(fahrenheit):
     """

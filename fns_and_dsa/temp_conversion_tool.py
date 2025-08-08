@@ -48,7 +48,7 @@ def main():
 
     while True:
         # 1. Get the temperature value from the user
-        temp_input = input("Enter the temperature to convert (e.g., 100): ").strip()
+        temp_input = input("Enter the temperature to convert: (e.g., 100) ").strip()
         if temp_input.lower() == 'q':
             print("Goodbye!")
             break
